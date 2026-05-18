@@ -18,15 +18,15 @@ export default function Features() {
     <section className="py-24 px-6 md:px-10 lg:px-20 bg-white border-t border-gray-100 overflow-hidden">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16 lg:gap-24">
         <div className="md:w-1/2 w-full fade-in-up">
-          <h2 className="text-4xl lg:text-5xl font-medium tracking-tight text-gray-900 mb-8 leading-tight">
+          <h2 className="text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight text-gray-900 mb-8 leading-[1.1] text-balance">
             Taking care of healthcare.
           </h2>
 
           <div className="space-y-8">
             {features.map((feature) => (
               <div key={feature.title}>
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">{feature.title}</h4>
-                <p className="text-gray-500 leading-relaxed">{feature.description}</p>
+                <h4 className="text-[clamp(1.05rem,2vw,1.25rem)] font-semibold text-gray-900 mb-2">{feature.title}</h4>
+                <p className="text-[clamp(0.95rem,1.5vw,1.1rem)] text-gray-500 leading-relaxed text-pretty">{feature.description}</p>
               </div>
             ))}
           </div>

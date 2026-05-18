@@ -6,11 +6,11 @@ export default function CTABanner() {
           Ready when you are
         </div>
 
-        <h2 className="text-white font-medium tracking-tight mb-6" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)' }}>
+        <h2 className="text-white font-medium tracking-tight mb-6 text-[clamp(1.75rem,4vw,3rem)] leading-[1.05] text-balance">
           Join 500+ healthcare teams<br />running on B12.
         </h2>
 
-        <p className="text-slate-300 mb-12 text-lg md:text-xl font-light">
+        <p className="text-slate-300 mb-12 font-light text-[clamp(0.95rem,2vw,1.125rem)] text-pretty">
           Set up in days, not months. Pick the path that works for you.
         </p>
 

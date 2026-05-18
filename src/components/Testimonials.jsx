@@ -30,8 +30,8 @@ export default function Testimonials() {
     <section id="who-we-serve" className="py-24 px-6 md:px-10 lg:px-20 bg-white border-t border-gray-100">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16 fade-in-up">
-          <h2 className="text-3xl font-medium tracking-tight text-gray-900">What our customers say</h2>
-          <p className="text-gray-500 mt-4 text-lg">Healthcare leaders trust B12 to simplify their operations.</p>
+          <h2 className="text-[clamp(1.75rem,4vw,2.5rem)] font-medium tracking-tight text-gray-900 text-balance leading-tight">What our customers say</h2>
+          <p className="text-gray-500 mt-4 text-[clamp(0.95rem,1.75vw,1.15rem)] text-pretty">Healthcare leaders trust B12 to simplify their operations.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -43,7 +43,7 @@ export default function Testimonials() {
               }`}
             >
               <div className="text-blue-600 text-5xl mb-4 leading-none">"</div>
-              <p className="text-gray-700 leading-relaxed mb-6 flex-grow">{testimonial.quote}</p>
+              <p className="text-gray-700 leading-relaxed mb-6 flex-grow text-[clamp(0.95rem,1.5vw,1.05rem)] text-pretty">{testimonial.quote}</p>
 
               <div className="mb-6">
                 <div className="inline-block bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold">

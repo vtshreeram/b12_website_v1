@@ -34,15 +34,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-[#fbfbfc] overflow-hidden relative">
-      <Navbar isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} />
-      <Hero isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} />
-      <MetricsBanner />
-      <Features />
-      <Testimonials />
-      <CTABanner />
-      <Footer />
-    </div>
+    <div className="bg-[#fbfbfc] overflow-hidden relative"><Navbar isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} /><Hero isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} /><MetricsBanner /><Features /><Testimonials /><CTABanner /><Footer /></div>
   );
 }
 

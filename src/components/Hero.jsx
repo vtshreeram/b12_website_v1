@@ -29,10 +29,10 @@ export default function Hero({ isDrawerOpen, setIsDrawerOpen }) {
           The First Ever Clinical Operating System
         </div>
 
-        <h1 className="text-white font-medium tracking-tight mb-8 leading-[1.05] max-w-5xl fade-in-up" style={{ fontSize: 'clamp(3rem, 6.5vw, 5.5rem)' }}>
+        <h1 className="text-white font-medium tracking-tight mb-8 leading-[1.05] max-w-5xl fade-in-up text-[clamp(2rem,5vw,3.5rem)] text-balance">
           Make care your<br />primary focus.
         </h1>
-        <p className="text-white/80 max-w-2xl mb-12 leading-relaxed text-lg md:text-xl font-light fade-in-up delay-100">
+        <p className="text-white/80 max-w-2xl mb-12 leading-relaxed text-[clamp(0.95rem,2vw,1.125rem)] font-light fade-in-up delay-100 text-pretty">
           B12 Health handles complex clinical data, patient intake, and revenue cycle monitoring upfront to make sure your clinic runs flawlessly, and you have more capacity to provide care.
         </p>
 
