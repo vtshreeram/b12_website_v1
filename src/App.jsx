@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import MetricsBanner from './components/MetricsBanner';
 import Features from './components/Features';
-import WhoWeServe from './components/WhoWeServe';
+import Testimonials from './components/Testimonials';
 import CTABanner from './components/CTABanner';
 import Footer from './components/Footer';
 
@@ -39,7 +39,7 @@ function App() {
       <Hero isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} />
       <MetricsBanner />
       <Features />
-      <WhoWeServe />
+      <Testimonials />
       <CTABanner />
       <Footer />
     </div>
